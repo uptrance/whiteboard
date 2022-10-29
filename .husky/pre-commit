@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-pnpx lint-staged
 pnpm --prefix packages/vue run prettier-format
 pnpm --prefix packages/vue run lint
