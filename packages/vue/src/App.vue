@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import TheHomeVue from './views/TheHome.vue'
+import TheCanvas from './views/TheCanvas.vue'
 </script>
 
 <template>
   <div class="app">
-    <TheHomeVue />
+    <TheCanvas />
   </div>
 </template>
 

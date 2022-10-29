@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node --esm src/index.ts",
     "build": "rollup -c rollup.config.js",
-    "build_run": "pnpm run build -w -p @rollup/plugin-run",
+    "build:run": "pnpm run build -w -p @rollup/plugin-run",
     "test:unit": "vitest"
   },
   "devDependencies": {
